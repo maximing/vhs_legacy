@@ -1,5 +1,4 @@
 <?php
-echo '<pre>'; print_r($_SERVER['REQUEST_URI']); echo '</pre>'; die();
 $domain = 'http://vhs.kz/';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -61,7 +60,7 @@ $domain = 'http://vhs.kz/';
             ];
             foreach ($items as $item) {
                 $class = '';
-                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0 || empty($_SERVER['REQUEST_URI'])) {
+                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0 || $_SERVER['REQUEST_URI'] === '/') {
                     $class = 'current_page_item';
                 }
 
