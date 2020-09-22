@@ -33,11 +33,9 @@ $domain = 'http://vhs.kz/';
 
 <body>
 
+<h1 class="vcard author"><a href="/" title="Главная" class="fn">Оцифровка видеокассет Алматы</a></h1>
 
 <div id="siteWrapper">
-
-    <h1 class="vcard author"><a href="/" title="Главная" class="fn">Оцифровка видеокассет Алматы</a></h1>
-
     <div id="mainNav">
         <ul>
             <?php
@@ -60,7 +58,7 @@ $domain = 'http://vhs.kz/';
             ];
             foreach ($items as $item) {
                 $class = '';
-                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0 || $_SERVER['REQUEST_URI'] === '/') {
+                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0) {
                     $class = 'current_page_item';
                 }
 
