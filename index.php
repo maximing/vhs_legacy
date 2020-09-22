@@ -1,4 +1,5 @@
 <?php
+echo '<pre>'; print_r($_SERVER['REQUEST_URI']); echo '</pre>'; die();
 $domain = 'http://vhs.kz/';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
