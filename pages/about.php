@@ -10,8 +10,8 @@
         Спросить Павла<br><br>
 
         Схема проезда:<br>
-        <strong style="color: red;">Красным цветом</strong> - путь на машине
-        <strong style="color: blue;">Синим цветом</strong> - путь пешком от автобусной остановки
+        <strong style="color: red;">Красным цветом</strong> - путь на машине<br>
+        <strong style="color: blue;">Синим цветом</strong> - путь пешком от автобусной остановки<br>
         <a href="/static/img/map.png">
             <img class="alignleft size-full wp-image-34"
                  title="Схема проезда"
