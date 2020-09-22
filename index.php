@@ -43,7 +43,7 @@ $domain = 'http://vhs.kz/';
             <?php
             $items = [
                 [
-                    'id'   => '',
+                    'id'   => '/',
                     'href' => '/',
                     'name' => 'Главная страница'
                 ],
@@ -67,9 +67,6 @@ $domain = 'http://vhs.kz/';
                 echo '<li class="page_item ' . $class . '"><a href="' . $item['href'] . '">' . $item['name'] . '</a></li>';
             }
             ?>
-            <li class="page_item page-item-22 current_page_item"><a href="/">Главная страница</a></li>
-            <li class="page_item page-item-49"><a href="/price/">Цены</a></li>
-            <li class="page_item page-item-14"><a href="/about/">Контакты</a></li>
         </ul>
     </div>
 
