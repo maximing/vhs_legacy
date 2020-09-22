@@ -33,9 +33,11 @@ $domain = 'http://vhs.kz/';
 
 <body>
 
-<h1 class="vcard author"><a href="/" title="Главная" class="fn">Оцифровка видеокассет Алматы</a></h1>
 
 <div id="siteWrapper">
+
+    <h2 class="vcard author"><a href="/" title="Главная" class="fn">Оцифровка видеокассет Алматы</a></h2>
+
     <div id="mainNav">
         <ul>
             <?php
