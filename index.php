@@ -36,11 +36,38 @@ $domain = 'http://vhs.kz/';
 
 <div id="siteWrapper">
 
-    <h1 class="vcard author"><a href="<?= $domain ?>" title="Главная" class="fn">Оцифровка видеокассет Алматы</a></h1>
+    <h1 class="vcard author"><a href="/" title="Главная" class="fn">Оцифровка видеокассет Алматы</a></h1>
 
     <div id="mainNav">
         <ul>
-            <li class="page_item page-item-22 current_page_item"><a href="<?= $domain ?>">Главная страница</a></li>
+            <?php
+            $items = [
+                [
+                    'id'   => '',
+                    'href' => '/',
+                    'name' => 'Главная страница'
+                ],
+                [
+                    'id'   => 'price',
+                    'href' => '/price',
+                    'name' => 'Цены'
+                ],
+                [
+                    'id'   => 'about',
+                    'href' => '/about',
+                    'name' => 'Контакты'
+                ]
+            ];
+            foreach ($items as $item) {
+                $class = '';
+                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0) {
+                    $class = 'current_page_item';
+                }
+
+                echo '<li class="page_item ' . $class . '"><a href="' . $item['href'] . '">' . $item['name'] . '</a></li>';
+            }
+            ?>
+            <li class="page_item page-item-22 current_page_item"><a href="/">Главная страница</a></li>
             <li class="page_item page-item-49"><a href="/price/">Цены</a></li>
             <li class="page_item page-item-14"><a href="/about/">Контакты</a></li>
         </ul>
@@ -57,11 +84,11 @@ $domain = 'http://vhs.kz/';
             <div class="postContent">
                 <?php
                 if (strpos($_SERVER['REQUEST_URI'], 'price') > 0) {
-                    echo include_once 'pages/price.php';
+                    include_once 'pages/price.php';
                 } elseif (strpos($_SERVER['REQUEST_URI'], 'about') > 0) {
-                    echo include_once 'pages/about.php';
+                    include_once 'pages/about.php';
                 } else {
-                    echo include_once 'pages/main.php';
+                    include_once 'pages/main.php';
                 }
                 ?>
             </div>
