@@ -60,7 +60,7 @@ $domain = 'http://vhs.kz/';
             ];
             foreach ($items as $item) {
                 $class = '';
-                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0) {
+                if (strpos($_SERVER['REQUEST_URI'], $item['id']) > 0 || empty($_SERVER['REQUEST_URI'])) {
                     $class = 'current_page_item';
                 }
 
