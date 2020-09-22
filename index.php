@@ -56,9 +56,9 @@ $domain = 'http://vhs.kz/';
         <div class="post hentry single">
             <div class="postContent">
                 <?php
-                if (strpos($_SERVER['REQUEST_URI'], 'price') !== 0) {
+                if (strpos($_SERVER['REQUEST_URI'], 'price') > 0) {
                     echo include_once 'pages/price.php';
-                } elseif (strpos($_SERVER['REQUEST_URI'], 'about') !== 0) {
+                } elseif (strpos($_SERVER['REQUEST_URI'], 'about') > 0) {
                     echo include_once 'pages/about.php';
                 } else {
                     echo include_once 'pages/main.php';
