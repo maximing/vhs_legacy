@@ -2,8 +2,6 @@
 <div class="entry-content">
     <p style="text-align: center;">Оцифровка видеокассет VHS.</p>
 
-    <p style="text-align: center; color: red"><strong style="color: red !important;">АКЦИЯ 5+1!</strong> При оцифровке пяти кассет шестая бесплатно!</p>
-
     <a href="/static/img/main_page_big_image.jpg">
         <img class="size-full wp-image-65" style="margin: 4px 0 10px 10px;"
              title="vhs_otsifrovka_videokasset_digital_types"
