@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53911a03-b8cf-44d7-9954-0ccb3d1b1b3a" name="Default Changelist" comment="contest">
+    <list default="true" id="53911a03-b8cf-44d7-9954-0ccb3d1b1b3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/img/otsifrovka_vhs_20210426_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/otsifrovka_vhs_20210426.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -42,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
@@ -59,7 +62,7 @@
       <workItem from="1603703171462" duration="482000" />
       <workItem from="1607930385991" duration="241000" />
       <workItem from="1610624495375" duration="109000" />
-      <workItem from="1619452435213" duration="318000" />
+      <workItem from="1619452435213" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="contest">
       <created>1603112748222</created>
@@ -89,16 +92,31 @@
       <option name="project" value="LOCAL" />
       <updated>1610624594561</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new image">
+      <created>1619452918965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619452918965</updated>
+    </task>
+    <task id="LOCAL-00006" summary="contest">
+      <created>1619453040899</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619453040899</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contest" />
     <MESSAGE value="contest ends" />
     <MESSAGE value="change price" />
-    <option name="LAST_COMMIT_MESSAGE" value="change price" />
+    <MESSAGE value="new image" />
+    <MESSAGE value="contest" />
+    <option name="LAST_COMMIT_MESSAGE" value="contest" />
   </component>
 </project>

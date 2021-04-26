@@ -5,8 +5,8 @@
     <a href="/static/img/main_page_big_image.jpg">
         <img class="size-full wp-image-65" style="margin: 4px 0 10px 10px;"
              title="vhs_otsifrovka_videokasset_digital_types"
-             src="/static/img/otsifrovka_vhs_20210426.jpg"
-             alt="" width="450"/>
+             src="/static/img/otsifrovka_vhs_20210426_2.jpg"
+             alt="" width="500"/>
     </a>
 
     <p>Для Вашего удобства есть возможность записи на разные носители:</p>
