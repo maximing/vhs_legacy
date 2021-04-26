@@ -101,7 +101,7 @@ $domain = 'http://vhs.kz/';
     <!-- Search Field -->
 
     <div class="footerContent">
-        <p>&copy; 2012 - 2020 <a href="/"><strong>Оцифровка видеокассет Алматы</strong></a>. Оцифровка видеокассет в
+        <p>&copy; 2012 - <?=date('Y')?> <a href="/"><strong>Оцифровка видеокассет Алматы</strong></a>. Оцифровка видеокассет в
             Алматы</p>
     </div>
 </div>
