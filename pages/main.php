@@ -2,7 +2,7 @@
 <div class="entry-content">
     <p style="text-align: center;">Оцифровка видеокассет VHS.</p>
 
-    <a href="/static/img/main_page_big_image.jpg">
+    <a href="/static/img/otsifrovka_vhs_20210426_2.jpg">
         <img class="size-full wp-image-65" style="margin: 4px 0 10px 10px;"
              title="vhs_otsifrovka_videokasset_digital_types"
              src="/static/img/otsifrovka_vhs_20210426_2.jpg"
