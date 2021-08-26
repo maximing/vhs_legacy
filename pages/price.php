@@ -1,4 +1,4 @@
 <h2 class="entry-title">Цены</h2>
 <div class="entry-content">
-    <p>Стоимость оцифровки одной VHS видеокассеты - <strong>1 600</strong> тенге</p>
+    <p>Стоимость оцифровки одной VHS видеокассеты - <strong>1 700</strong> тенге</p>
 </div>
