@@ -7,8 +7,8 @@
         8 777 731 33 44<br><br>
 
         Звонить с 13-00 до 20-00<br>
-        Спросить Павла<br><br>
-        <span style="color: orangered">Без выходных</span>
+        Спросить Павла<br>
+        <span style="color: orangered">Без выходных</span><br><br>
 
         Схема проезда:<br>
         <strong style="color: red;">Красным цветом</strong> - путь на машине<br>
