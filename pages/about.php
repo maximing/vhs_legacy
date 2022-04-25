@@ -8,6 +8,7 @@
 
         Звонить с 13-00 до 20-00<br>
         Спросить Павла<br><br>
+        <span style="color: orangered">Без выходных</span>
 
         Схема проезда:<br>
         <strong style="color: red;">Красным цветом</strong> - путь на машине<br>
